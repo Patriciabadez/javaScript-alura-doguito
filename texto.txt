@@ -1,0 +1,10 @@
+
+npm install -g browser-sync
+
+sudo npm install -g browser-sync
+
+digitar browser-sync start, para iniciar o serviço Browsersync, -s para dizer que eu quero um servidor, -f para dizer que eu quero checar por arquivos do projeto, ., que ele verifique todos os arquivos do projeto, não alguns arquivos específicos, e --directory para poder abrir a raiz do projeto no navegador.
+
+browser-sync start -s -f . --directory
+
+localhost:.3000
